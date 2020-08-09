@@ -1,0 +1,19 @@
+/* pages/index/index.wxss */
+.container{
+  height:100vh; /*高100视窗*/
+  display: flex;/*flex布局方法*/
+  flex-direction: column; /*垂直布局*/
+  align-items: center;/*水平居中*/
+  justify-content: space-around;/*垂直方向分散布局*/
+}
+image{
+  width: 300px;/*图片宽度*/
+  height: 200px;
+  border-radius: 80%; /*4个角变为圆角*/
+}
+text{
+  font-size: 50rpx;/*字体大小*/
+  color: red;
+  background-color: blueviolet;
+  border: 10rpx solid yellowgreen;
+}
